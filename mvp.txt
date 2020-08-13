@@ -1,0 +1,20 @@
+NextBim
+In order to avoid waiting at a tram stop when travelling between home and work
+As Ivan Burda
+I want to see at on click when is the next connection with waiting time under 3 minutes involved leaving from home/work
+
+https://digitales.wien.gv.at/site/open-data/
+https://www.data.gv.at/katalog/dataset/stadt-wien_wienerlinienroutingservice
+https://data.wien.gv.at/pdf/wiener-linien-routing.pdf
+http://www.wienerlinien.at/ogd_routing/XML_STOPFINDER_REQUEST?locationServerActive=1&outputFormat=JSON&type_sf=any&name_sf=Erdberg
+
+
+MVP
+Aumanplatz - Erste Campus, hardcoded
+Erste Campus - Aumanplatz, hardcoded
+Get current time
+Check the fastest connection within the next 15 minutes
+Display the leaving time of the fastest connection
+Display the journey time
+
+
