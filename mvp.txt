@@ -19,3 +19,13 @@ Display the journey time
 
 Vienna transport api
 https://www.data.gv.at/anwendungen/viennatransport-api/
+
+
+SOLVING CORS
+https://medium.com/netscape/hacking-it-out-when-cors-wont-let-you-be-great-35f6206cc646
+https://cors-anywhere.herokuapp.com/
+https://nordicapis.com/10-free-to-use-cors-proxies/
+
+Working proxy
+https://allorigins.win/
+https://github.com/gnuns/allorigins
