@@ -4,7 +4,8 @@ async function getPlaceData() {
     method: 'GET',
     headers: {
       'Accept': 'application/json',
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': 'https://ivanburda1986.github.io/nextBim/'
     }
   });
   const data = await response.json();
