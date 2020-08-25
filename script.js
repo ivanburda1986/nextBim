@@ -7,6 +7,6 @@ async function getPlaceData() {
       'Content-Type': 'application/json',
     }
   });
-  const data = await response;
-  console.log(data);
+  const data = await response.json();
+  console.log(JSON.parse(data.contents));
 }
