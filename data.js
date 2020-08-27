@@ -24,6 +24,7 @@ const DataCtrl = (function () {
           })
         })
       })
+      countdowns.sort((a, b) => a - b);
       console.log(countdowns);
     }
   }
