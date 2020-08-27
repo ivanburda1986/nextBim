@@ -1,0 +1,1743 @@
+{
+  "parameters": [{
+    "name": "requestID",
+    "value": "0"
+  }, {
+    "name": "sessionID",
+    "value": "0"
+  }],
+  "trips": [{
+    "trip": {
+      "duration": "00:28",
+      "interchange": "0",
+      "desc": "1",
+      "legs": [{
+        "timeMinute": "8",
+        "points": [{
+          "name": "Wien Hauptbahnhof",
+          "place": "Wien",
+          "nameWithPlace": "Wien Hauptbahnhof",
+          "usage": "departure",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "00:16"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "16"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F1.pdf"
+          }],
+          "ref": {
+            "id": "60201349",
+            "area": "16",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822665.00000,5862114.00000"
+          }
+        }, {
+          "name": "Wien Hauptbahnhof",
+          "place": "Wien",
+          "nameWithPlace": "Wien Hauptbahnhof",
+          "usage": "arrival",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "00:24"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "24"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F2.pdf"
+          }],
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000"
+          }
+        }],
+        "mode": {
+          "name": "",
+          "number": "",
+          "type": "99",
+          "code": "-1",
+          "destination": "",
+          "destID": "0",
+          "desc": "",
+          "diva": {
+            "branch": "",
+            "line": "",
+            "supplement": " ",
+            "dir": " ",
+            "project": "",
+            "network": "",
+            "stateless": ":: : :",
+            "operator": "",
+            "opCode": ""
+          }
+        },
+        "stopSeq": [{
+          "name": "Wien Hauptbahnhof",
+          "nameWO": "Hauptbahnhof",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "",
+          "ref": {
+            "id": "60201349",
+            "area": "16",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822665.00000,5862114.00000",
+            "depDateTime": "20200827 00:16",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Hauptbahnhof",
+          "nameWO": "Hauptbahnhof",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000",
+            "arrDateTime": "20200827 00:24",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }],
+        "frequency": {
+          "hasFrequency": "0",
+          "tripIndex": "0",
+          "minTimeGap": "0",
+          "maxTimeGap": "0",
+          "avTimeGap": "0",
+          "minDuration": "0",
+          "maxDuration": "0",
+          "avDuration": "0",
+          "modes": []
+        },
+        "path": "1822665.00000,5862114.00000 1822699.00000,5861945.00000"
+      }, {
+        "timeMinute": "8",
+        "points": [{
+          "name": "Wien SÃ¼dtiroler Pl. - Hbf.",
+          "place": "Wien",
+          "nameWithPlace": "Wien Hauptbahnhof",
+          "usage": "departure",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "00:24"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "24"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F2.pdf"
+          }],
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "place": "Wien",
+          "nameWithPlace": "Wien Stephansplatz",
+          "usage": "arrival",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "00:32"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "32"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F3.pdf"
+          }],
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822485.00000,5858461.00000"
+          }
+        }],
+        "mode": {
+          "name": "U-Bahn U1",
+          "number": "U1",
+          "type": "1",
+          "code": "2",
+          "destination": "Wien Leopoldau",
+          "destID": "60200769",
+          "desc": "",
+          "diva": {
+            "branch": "21",
+            "line": "0U1",
+            "supplement": "Y",
+            "dir": "H",
+            "project": "j20",
+            "network": "vor",
+            "stateless": "vor:210U1:Y:H:j20",
+            "operator": "Wiener Linien",
+            "opCode": "04"
+          }
+        },
+        "stopSeq": [{
+          "name": "Wien SÃ¼dtiroler Pl. - Hbf.",
+          "nameWO": "SÃ¼dtiroler Pl. - Hbf.",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000",
+            "depDateTime": "20200827 00:24",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Taubstummengasse",
+          "nameWO": "Taubstummengasse",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201366",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822345.00000,5860843.00000",
+            "arrDateTime": "20200827 00:25",
+            "depDateTime": "20200827 00:25",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Karlsplatz",
+          "nameWO": "Karlsplatz",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60200657",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822178.00000,5859599.00000",
+            "arrDateTime": "20200827 00:27",
+            "depDateTime": "20200827 00:30",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "nameWO": "Stephansplatz",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822485.00000,5858461.00000",
+            "arrDateTime": "20200827 00:32",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }],
+        "frequency": {
+          "hasFrequency": "0",
+          "tripIndex": "0",
+          "minTimeGap": "0",
+          "maxTimeGap": "0",
+          "avTimeGap": "0",
+          "minDuration": "0",
+          "maxDuration": "0",
+          "avDuration": "0",
+          "modes": []
+        }
+      }, {
+        "timeMinute": "12",
+        "points": [{
+          "name": "Wien Stephansplatz",
+          "place": "Wien",
+          "nameWithPlace": "Wien Stephansplatz",
+          "usage": "departure",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "00:32"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "32"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F3.pdf"
+          }],
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822482.00000,5858449.00000"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "place": "Wien",
+          "nameWithPlace": "Wien Stephansplatz",
+          "usage": "arrival",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "00:44"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "44"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F4.pdf"
+          }],
+          "ref": {
+            "id": "60201320",
+            "area": "5",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822482.00000,5858449.00000"
+          }
+        }],
+        "mode": {
+          "name": "",
+          "number": "",
+          "type": "99",
+          "code": "-1",
+          "destination": "",
+          "destID": "0",
+          "desc": "",
+          "diva": {
+            "branch": "",
+            "line": "",
+            "supplement": " ",
+            "dir": " ",
+            "project": "",
+            "network": "",
+            "stateless": ":: : :",
+            "operator": "",
+            "opCode": ""
+          }
+        },
+        "frequency": {
+          "hasFrequency": "0",
+          "tripIndex": "0",
+          "minTimeGap": "0",
+          "maxTimeGap": "0",
+          "avTimeGap": "0",
+          "minDuration": "0",
+          "maxDuration": "0",
+          "avDuration": "0",
+          "modes": []
+        },
+        "path": "1822485.00000,5858461.00000 1822524.00000,5858377.00000"
+      }],
+      "attrs": []
+    }
+  }, {
+    "trip": {
+      "duration": "00:25",
+      "interchange": "0",
+      "desc": "1",
+      "legs": [{
+        "timeMinute": "8",
+        "points": [{
+          "name": "Wien Hauptbahnhof",
+          "place": "Wien",
+          "nameWithPlace": "Wien Hauptbahnhof",
+          "usage": "departure",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:00"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "500"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F6.pdf"
+          }],
+          "ref": {
+            "id": "60201349",
+            "area": "16",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822665.00000,5862114.00000"
+          }
+        }, {
+          "name": "Wien Hauptbahnhof",
+          "place": "Wien",
+          "nameWithPlace": "Wien Hauptbahnhof",
+          "usage": "arrival",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:08"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "508"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F7.pdf"
+          }],
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000"
+          }
+        }],
+        "mode": {
+          "name": "",
+          "number": "",
+          "type": "99",
+          "code": "-1",
+          "destination": "",
+          "destID": "0",
+          "desc": "",
+          "diva": {
+            "branch": "",
+            "line": "",
+            "supplement": " ",
+            "dir": " ",
+            "project": "",
+            "network": "",
+            "stateless": ":: : :",
+            "operator": "",
+            "opCode": ""
+          }
+        },
+        "stopSeq": [{
+          "name": "Wien Hauptbahnhof",
+          "nameWO": "Hauptbahnhof",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "",
+          "ref": {
+            "id": "60201349",
+            "area": "16",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822665.00000,5862114.00000",
+            "depDateTime": "20200827 05:00",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Hauptbahnhof",
+          "nameWO": "Hauptbahnhof",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000",
+            "arrDateTime": "20200827 05:08",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }],
+        "frequency": {
+          "hasFrequency": "0",
+          "tripIndex": "0",
+          "minTimeGap": "0",
+          "maxTimeGap": "0",
+          "avTimeGap": "0",
+          "minDuration": "0",
+          "maxDuration": "0",
+          "avDuration": "0",
+          "modes": []
+        },
+        "path": "1822665.00000,5862114.00000 1822699.00000,5861945.00000"
+      }, {
+        "timeMinute": "5",
+        "points": [{
+          "name": "Wien SÃ¼dtiroler Pl. - Hbf.",
+          "place": "Wien",
+          "nameWithPlace": "Wien Hauptbahnhof",
+          "usage": "departure",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:08"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "508"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F7.pdf"
+          }],
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "place": "Wien",
+          "nameWithPlace": "Wien Stephansplatz",
+          "usage": "arrival",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:13"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "513"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F8.pdf"
+          }],
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822485.00000,5858461.00000"
+          }
+        }],
+        "mode": {
+          "name": "U-Bahn U1",
+          "number": "U1",
+          "type": "1",
+          "code": "2",
+          "destination": "Wien Leopoldau",
+          "destID": "60200769",
+          "desc": "",
+          "diva": {
+            "branch": "21",
+            "line": "0U1",
+            "supplement": "Y",
+            "dir": "H",
+            "project": "j20",
+            "network": "vor",
+            "stateless": "vor:210U1:Y:H:j20",
+            "operator": "Wiener Linien",
+            "opCode": "04"
+          }
+        },
+        "stopSeq": [{
+          "name": "Wien SÃ¼dtiroler Pl. - Hbf.",
+          "nameWO": "SÃ¼dtiroler Pl. - Hbf.",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000",
+            "depDateTime": "20200827 05:08",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Taubstummengasse",
+          "nameWO": "Taubstummengasse",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201366",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822345.00000,5860843.00000",
+            "arrDateTime": "20200827 05:09",
+            "depDateTime": "20200827 05:09",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Karlsplatz",
+          "nameWO": "Karlsplatz",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60200657",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822178.00000,5859599.00000",
+            "arrDateTime": "20200827 05:11",
+            "depDateTime": "20200827 05:11",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "nameWO": "Stephansplatz",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822485.00000,5858461.00000",
+            "arrDateTime": "20200827 05:13",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }],
+        "frequency": {
+          "hasFrequency": "0",
+          "tripIndex": "0",
+          "minTimeGap": "0",
+          "maxTimeGap": "0",
+          "avTimeGap": "0",
+          "minDuration": "0",
+          "maxDuration": "0",
+          "avDuration": "0",
+          "modes": []
+        }
+      }, {
+        "timeMinute": "12",
+        "points": [{
+          "name": "Wien Stephansplatz",
+          "place": "Wien",
+          "nameWithPlace": "Wien Stephansplatz",
+          "usage": "departure",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:13"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "513"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F8.pdf"
+          }],
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822485.00000,5858461.00000"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "place": "Wien",
+          "nameWithPlace": "Wien Stephansplatz",
+          "usage": "arrival",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:25"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "525"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F9.pdf"
+          }],
+          "ref": {
+            "id": "60201320",
+            "area": "5",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822524.00000,5858377.00000"
+          }
+        }],
+        "mode": {
+          "name": "",
+          "number": "",
+          "type": "99",
+          "code": "-1",
+          "destination": "",
+          "destID": "0",
+          "desc": "",
+          "diva": {
+            "branch": "",
+            "line": "",
+            "supplement": " ",
+            "dir": " ",
+            "project": "",
+            "network": "",
+            "stateless": ":: : :",
+            "operator": "",
+            "opCode": ""
+          }
+        },
+        "stopSeq": [{
+          "name": "Wien Stephansplatz",
+          "nameWO": "Stephansplatz",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822485.00000,5858461.00000",
+            "depDateTime": "20200827 05:13",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "nameWO": "Stephansplatz",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "",
+          "ref": {
+            "id": "60201320",
+            "area": "5",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822524.00000,5858377.00000",
+            "arrDateTime": "20200827 05:25",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }],
+        "frequency": {
+          "hasFrequency": "0",
+          "tripIndex": "0",
+          "minTimeGap": "0",
+          "maxTimeGap": "0",
+          "avTimeGap": "0",
+          "minDuration": "0",
+          "maxDuration": "0",
+          "avDuration": "0",
+          "modes": []
+        },
+        "path": "1822485.00000,5858461.00000 1822524.00000,5858377.00000"
+      }],
+      "attrs": []
+    }
+  }, {
+    "trip": {
+      "duration": "00:25",
+      "interchange": "0",
+      "desc": "1",
+      "legs": [{
+        "timeMinute": "8",
+        "points": [{
+          "name": "Wien Hauptbahnhof",
+          "place": "Wien",
+          "nameWithPlace": "Wien Hauptbahnhof",
+          "usage": "departure",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:07"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "507"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F6.pdf"
+          }],
+          "ref": {
+            "id": "60201349",
+            "area": "16",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822665.00000,5862114.00000"
+          }
+        }, {
+          "name": "Wien Hauptbahnhof",
+          "place": "Wien",
+          "nameWithPlace": "Wien Hauptbahnhof",
+          "usage": "arrival",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:15"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "515"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F7.pdf"
+          }],
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000"
+          }
+        }],
+        "mode": {
+          "name": "",
+          "number": "",
+          "type": "99",
+          "code": "-1",
+          "destination": "",
+          "destID": "0",
+          "desc": "",
+          "diva": {
+            "branch": "",
+            "line": "",
+            "supplement": " ",
+            "dir": " ",
+            "project": "",
+            "network": "",
+            "stateless": ":: : :",
+            "operator": "",
+            "opCode": ""
+          }
+        },
+        "stopSeq": [{
+          "name": "Wien Hauptbahnhof",
+          "nameWO": "Hauptbahnhof",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "",
+          "ref": {
+            "id": "60201349",
+            "area": "16",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822665.00000,5862114.00000",
+            "depDateTime": "20200827 05:07",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Hauptbahnhof",
+          "nameWO": "Hauptbahnhof",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000",
+            "arrDateTime": "20200827 05:15",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }],
+        "frequency": {
+          "hasFrequency": "0",
+          "tripIndex": "0",
+          "minTimeGap": "0",
+          "maxTimeGap": "0",
+          "avTimeGap": "0",
+          "minDuration": "0",
+          "maxDuration": "0",
+          "avDuration": "0",
+          "modes": []
+        },
+        "path": "1822665.00000,5862114.00000 1822699.00000,5861945.00000"
+      }, {
+        "timeMinute": "5",
+        "points": [{
+          "name": "Wien SÃ¼dtiroler Pl. - Hbf.",
+          "place": "Wien",
+          "nameWithPlace": "Wien Hauptbahnhof",
+          "usage": "departure",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:15"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "515"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F7.pdf"
+          }],
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "place": "Wien",
+          "nameWithPlace": "Wien Stephansplatz",
+          "usage": "arrival",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:20"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "520"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F8.pdf"
+          }],
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822485.00000,5858461.00000"
+          }
+        }],
+        "mode": {
+          "name": "U-Bahn U1",
+          "number": "U1",
+          "type": "1",
+          "code": "2",
+          "destination": "Wien Leopoldau",
+          "destID": "60200769",
+          "desc": "",
+          "diva": {
+            "branch": "21",
+            "line": "0U1",
+            "supplement": "Y",
+            "dir": "H",
+            "project": "j20",
+            "network": "vor",
+            "stateless": "vor:210U1:Y:H:j20",
+            "operator": "Wiener Linien",
+            "opCode": "04"
+          }
+        },
+        "stopSeq": [{
+          "name": "Wien SÃ¼dtiroler Pl. - Hbf.",
+          "nameWO": "SÃ¼dtiroler Pl. - Hbf.",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000",
+            "depDateTime": "20200827 05:15",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Taubstummengasse",
+          "nameWO": "Taubstummengasse",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201366",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822345.00000,5860843.00000",
+            "arrDateTime": "20200827 05:16",
+            "depDateTime": "20200827 05:16",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Karlsplatz",
+          "nameWO": "Karlsplatz",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60200657",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822178.00000,5859599.00000",
+            "arrDateTime": "20200827 05:18",
+            "depDateTime": "20200827 05:18",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "nameWO": "Stephansplatz",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822485.00000,5858461.00000",
+            "arrDateTime": "20200827 05:20",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }],
+        "frequency": {
+          "hasFrequency": "0",
+          "tripIndex": "0",
+          "minTimeGap": "0",
+          "maxTimeGap": "0",
+          "avTimeGap": "0",
+          "minDuration": "0",
+          "maxDuration": "0",
+          "avDuration": "0",
+          "modes": []
+        }
+      }, {
+        "timeMinute": "12",
+        "points": [{
+          "name": "Wien Stephansplatz",
+          "place": "Wien",
+          "nameWithPlace": "Wien Stephansplatz",
+          "usage": "departure",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:20"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "520"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F8.pdf"
+          }],
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822485.00000,5858461.00000"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "place": "Wien",
+          "nameWithPlace": "Wien Stephansplatz",
+          "usage": "arrival",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:32"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "532"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F9.pdf"
+          }],
+          "ref": {
+            "id": "60201320",
+            "area": "5",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822524.00000,5858377.00000"
+          }
+        }],
+        "mode": {
+          "name": "",
+          "number": "",
+          "type": "99",
+          "code": "-1",
+          "destination": "",
+          "destID": "0",
+          "desc": "",
+          "diva": {
+            "branch": "",
+            "line": "",
+            "supplement": " ",
+            "dir": " ",
+            "project": "",
+            "network": "",
+            "stateless": ":: : :",
+            "operator": "",
+            "opCode": ""
+          }
+        },
+        "stopSeq": [{
+          "name": "Wien Stephansplatz",
+          "nameWO": "Stephansplatz",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822485.00000,5858461.00000",
+            "depDateTime": "20200827 05:20",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "nameWO": "Stephansplatz",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "",
+          "ref": {
+            "id": "60201320",
+            "area": "5",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822524.00000,5858377.00000",
+            "arrDateTime": "20200827 05:32",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }],
+        "frequency": {
+          "hasFrequency": "0",
+          "tripIndex": "0",
+          "minTimeGap": "0",
+          "maxTimeGap": "0",
+          "avTimeGap": "0",
+          "minDuration": "0",
+          "maxDuration": "0",
+          "avDuration": "0",
+          "modes": []
+        },
+        "path": "1822485.00000,5858461.00000 1822524.00000,5858377.00000"
+      }],
+      "attrs": []
+    }
+  }, {
+    "trip": {
+      "duration": "00:25",
+      "interchange": "0",
+      "desc": "1",
+      "legs": [{
+        "timeMinute": "8",
+        "points": [{
+          "name": "Wien Hauptbahnhof",
+          "place": "Wien",
+          "nameWithPlace": "Wien Hauptbahnhof",
+          "usage": "departure",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:15"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "515"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F6.pdf"
+          }],
+          "ref": {
+            "id": "60201349",
+            "area": "16",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822665.00000,5862114.00000"
+          }
+        }, {
+          "name": "Wien Hauptbahnhof",
+          "place": "Wien",
+          "nameWithPlace": "Wien Hauptbahnhof",
+          "usage": "arrival",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:23"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "523"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F7.pdf"
+          }],
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000"
+          }
+        }],
+        "mode": {
+          "name": "",
+          "number": "",
+          "type": "99",
+          "code": "-1",
+          "destination": "",
+          "destID": "0",
+          "desc": "",
+          "diva": {
+            "branch": "",
+            "line": "",
+            "supplement": " ",
+            "dir": " ",
+            "project": "",
+            "network": "",
+            "stateless": ":: : :",
+            "operator": "",
+            "opCode": ""
+          }
+        },
+        "stopSeq": [{
+          "name": "Wien Hauptbahnhof",
+          "nameWO": "Hauptbahnhof",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "",
+          "ref": {
+            "id": "60201349",
+            "area": "16",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822665.00000,5862114.00000",
+            "depDateTime": "20200827 05:15",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Hauptbahnhof",
+          "nameWO": "Hauptbahnhof",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000",
+            "arrDateTime": "20200827 05:23",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }],
+        "frequency": {
+          "hasFrequency": "0",
+          "tripIndex": "0",
+          "minTimeGap": "0",
+          "maxTimeGap": "0",
+          "avTimeGap": "0",
+          "minDuration": "0",
+          "maxDuration": "0",
+          "avDuration": "0",
+          "modes": []
+        },
+        "path": "1822665.00000,5862114.00000 1822699.00000,5861945.00000"
+      }, {
+        "timeMinute": "5",
+        "points": [{
+          "name": "Wien SÃ¼dtiroler Pl. - Hbf.",
+          "place": "Wien",
+          "nameWithPlace": "Wien Hauptbahnhof",
+          "usage": "departure",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:23"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "523"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F7.pdf"
+          }],
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "place": "Wien",
+          "nameWithPlace": "Wien Stephansplatz",
+          "usage": "arrival",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:28"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "528"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F8.pdf"
+          }],
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822485.00000,5858461.00000"
+          }
+        }],
+        "mode": {
+          "name": "U-Bahn U1",
+          "number": "U1",
+          "type": "1",
+          "code": "2",
+          "destination": "Wien Leopoldau",
+          "destID": "60200769",
+          "desc": "",
+          "diva": {
+            "branch": "21",
+            "line": "0U1",
+            "supplement": "Y",
+            "dir": "H",
+            "project": "j20",
+            "network": "vor",
+            "stateless": "vor:210U1:Y:H:j20",
+            "operator": "Wiener Linien",
+            "opCode": "04"
+          }
+        },
+        "stopSeq": [{
+          "name": "Wien SÃ¼dtiroler Pl. - Hbf.",
+          "nameWO": "SÃ¼dtiroler Pl. - Hbf.",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201349",
+            "area": "2",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822699.00000,5861945.00000",
+            "depDateTime": "20200827 05:23",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Taubstummengasse",
+          "nameWO": "Taubstummengasse",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201366",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822345.00000,5860843.00000",
+            "arrDateTime": "20200827 05:24",
+            "depDateTime": "20200827 05:24",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Karlsplatz",
+          "nameWO": "Karlsplatz",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60200657",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822178.00000,5859599.00000",
+            "arrDateTime": "20200827 05:26",
+            "depDateTime": "20200827 05:26",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "nameWO": "Stephansplatz",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822485.00000,5858461.00000",
+            "arrDateTime": "20200827 05:28",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }],
+        "frequency": {
+          "hasFrequency": "0",
+          "tripIndex": "0",
+          "minTimeGap": "0",
+          "maxTimeGap": "0",
+          "avTimeGap": "0",
+          "minDuration": "0",
+          "maxDuration": "0",
+          "avDuration": "0",
+          "modes": []
+        }
+      }, {
+        "timeMinute": "12",
+        "points": [{
+          "name": "Wien Stephansplatz",
+          "place": "Wien",
+          "nameWithPlace": "Wien Stephansplatz",
+          "usage": "departure",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:28"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "528"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F8.pdf"
+          }],
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822485.00000,5858461.00000"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "place": "Wien",
+          "nameWithPlace": "Wien Stephansplatz",
+          "usage": "arrival",
+          "omc": "49000001",
+          "placeID": "50",
+          "desc": "",
+          "dateTime": {
+            "date": "27.08.2020",
+            "time": "05:40"
+          },
+          "stamp": {
+            "date": "20200827",
+            "time": "540"
+          },
+          "links": [{
+            "name": "RM",
+            "type": "RM",
+            "href": "FILELOAD?Filename=aut_5F46E22F9.pdf"
+          }],
+          "ref": {
+            "id": "60201320",
+            "area": "5",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822524.00000,5858377.00000"
+          }
+        }],
+        "mode": {
+          "name": "",
+          "number": "",
+          "type": "99",
+          "code": "-1",
+          "destination": "",
+          "destID": "0",
+          "desc": "",
+          "diva": {
+            "branch": "",
+            "line": "",
+            "supplement": " ",
+            "dir": " ",
+            "project": "",
+            "network": "",
+            "stateless": ":: : :",
+            "operator": "",
+            "opCode": ""
+          }
+        },
+        "stopSeq": [{
+          "name": "Wien Stephansplatz",
+          "nameWO": "Stephansplatz",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "1",
+          "ref": {
+            "id": "60201320",
+            "area": "1",
+            "platform": "U1-H",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822485.00000,5858461.00000",
+            "depDateTime": "20200827 05:28",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }, {
+          "name": "Wien Stephansplatz",
+          "nameWO": "Stephansplatz",
+          "place": "",
+          "nameWithPlace": "",
+          "omc": "49000001",
+          "placeID": "50",
+          "platformName": "",
+          "ref": {
+            "id": "60201320",
+            "area": "5",
+            "platform": "",
+            "NaPTANID": "",
+            "attrs": [],
+            "coords": "1822524.00000,5858377.00000",
+            "arrDateTime": "20200827 05:40",
+            "arrDelay": "-1",
+            "depDelay": "-1"
+          }
+        }],
+        "frequency": {
+          "hasFrequency": "0",
+          "tripIndex": "0",
+          "minTimeGap": "0",
+          "maxTimeGap": "0",
+          "avTimeGap": "0",
+          "minDuration": "0",
+          "maxDuration": "0",
+          "avDuration": "0",
+          "modes": []
+        },
+        "path": "1822485.00000,5858461.00000 1822524.00000,5858377.00000"
+      }],
+      "attrs": []
+    }
+  }]
+}
