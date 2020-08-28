@@ -16,6 +16,10 @@ const DataCtrl = (function () {
     },
     abstractStopDepartureCountdowns(placeData) {
       //console.log(placeData.data.monitors[0].lines[0].departures.departure[0].departureTime.countdown);
+      let lineNames = placeData.data.monitors.forEach((monitor => {
+        monitor.lines.forEach(line => console.log(line.name))
+      }));
+      console.log(lineNames);
       let countdowns = [];
       placeData.data.monitors.forEach((monitor) => {
         monitor.lines.forEach((line) => {
