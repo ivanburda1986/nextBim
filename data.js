@@ -1,5 +1,6 @@
 //DATA CONTROLLER
 const DataCtrl = (function () {
+  const minutesAumanPlatzToSchottentor = 13;
 
   return {
     //Get info about a stop
@@ -14,18 +15,20 @@ const DataCtrl = (function () {
       const data = await response.json();
       DataCtrl.abstractStopDepartureCountdowns((data)); //JSON.parse(data.contents)
     },
+    //Get countdowns for relevant means of transport of the stop
     abstractStopDepartureCountdowns(placeData) {
-      //console.log(placeData.data.monitors[0].lines[0].departures.departure[0].departureTime.countdown);
-      let lineNames = placeData.data.monitors.forEach((monitor => {
-        monitor.lines.forEach(line => console.log(line.name))
-      }));
-      console.log(lineNames);
-      let countdowns = [];
+      let departureSets = [];
       placeData.data.monitors.forEach((monitor) => {
         monitor.lines.forEach((line) => {
-          line.departures.departure.forEach((departure) => {
-            countdowns.push(departure.departureTime.countdown);
-          })
+          if (line.name === "D" || line.name === "40" || line.name === "41") {
+            departureSets.push(line.departures.departure);
+          }
+        });
+      });
+      let countdowns = [];
+      departureSets.forEach((set) => {
+        set.forEach((item) => {
+          countdowns.push(item.departureTime.countdown);
         })
       })
       countdowns.sort((a, b) => a - b);
