@@ -1,5 +1,6 @@
 //DATA CONTROLLER
 const DataCtrl = (function () {
+  const UISelectors = UICtrl.getSelectors();
   const minutesAumanPlatzToSchottentor = 13;
 
   return {
@@ -16,7 +17,7 @@ const DataCtrl = (function () {
       DataCtrl.abstractStopDepartureCountdowns((data)); //JSON.parse(data.contents)
     },
     //Get countdowns for relevant means of transport of the stop
-    abstractStopDepartureCountdowns(placeData) {
+    abstractStopDepartureCountdowns: function (placeData) {
       let departureSets = [];
       placeData.data.monitors.forEach((monitor) => {
         monitor.lines.forEach((line) => {
@@ -32,7 +33,7 @@ const DataCtrl = (function () {
         })
       })
       countdowns.sort((a, b) => a - b);
-      console.log(countdowns);
+      UICtrl.displayCountdowns()
     }
   }
 })();
