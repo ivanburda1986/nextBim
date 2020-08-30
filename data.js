@@ -1,11 +1,18 @@
 //DATA CONTROLLER
 const DataCtrl = (function () {
-  const UISelectors = UICtrl.getSelectors();
-  const minutesAumanPlatzToSchottentor = 13;
+  const appData = {
+    minutesAumannplatzToSchottentor: 13,
+    aumannplatzCountdowns: [],
+    schottentorCountdowns: [],
+  }
 
   return {
+    //Returns app data
+    getAppData: function () {
+      return appData;
+    },
     //Get info about a stop
-    getStopData: async function (stopNumber) {
+    getStopData: async function (stopNumber, countdownsContainer) {
       const response = await fetch(`mocks/${stopNumber}.json`, {
         method: "GET",
         headers: {
@@ -14,10 +21,10 @@ const DataCtrl = (function () {
         },
       });
       const data = await response.json();
-      DataCtrl.abstractStopDepartureCountdowns((data)); //JSON.parse(data.contents)
+      DataCtrl.abstractStopDepartureCountdowns(data, countdownsContainer); //JSON.parse(data.contents)
     },
     //Get countdowns for relevant means of transport of the stop
-    abstractStopDepartureCountdowns: function (placeData) {
+    abstractStopDepartureCountdowns: function (placeData, countdownsContainer) {
       let departureSets = [];
       placeData.data.monitors.forEach((monitor) => {
         monitor.lines.forEach((line) => {
@@ -33,7 +40,13 @@ const DataCtrl = (function () {
         })
       })
       countdowns.sort((a, b) => a - b);
-      UICtrl.displayCountdowns()
+      countdowns = countdowns.filter((item) => {
+        if (item <= 60) {
+          return item
+        }
+      });
+      //console.log(countdowns);
+      UICtrl.displayCountdowns(countdowns, countdownsContainer);
     }
   }
 })();
