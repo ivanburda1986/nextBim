@@ -21,7 +21,7 @@ const DataCtrl = (function () {
         },
       });
       const data = await response.json();
-      DataCtrl.abstractStopDepartureCountdowns(data, countdownsContainer); //JSON.parse(data.contents)
+      DataCtrl.abstractStopDepartureCountdowns((data), countdownsContainer); //JSON.parse(data.contents)
     },
     //Get countdowns for relevant means of transport of the stop
     abstractStopDepartureCountdowns: function (placeData, countdownsContainer) {
@@ -57,3 +57,4 @@ const DataCtrl = (function () {
 //145: Aumannplatz>Schottentor
 
 //https://api.allorigins.win/get?url=http://www.wienerlinien.at/ogd_realtime/monitor?stopId=147
+//mocks/${stopNumber}.json

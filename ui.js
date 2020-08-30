@@ -45,12 +45,6 @@ const UICtrl = (function () {
           red.push(aumannplatzCountdown);
         }
       });
-      // console.log(aumannplatzCountdowns);
-      // console.log(schottentorCountdowns);
-      console.log(green);
-      console.log(yellow);
-      console.log(orange);
-      console.log(red);
       //Take all countdowns from Aumannplatz to Schottentor and assign them color class based on what color-array they are located in
       Array.from(UICtrl.getSelectors().aumannplatzSchottentor.getElementsByClassName('countdownDisplay')).forEach((countdown) => {
         if (green.includes(parseInt(countdown.getAttribute('countdownValue')))) {
