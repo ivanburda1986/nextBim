@@ -1,0 +1,95 @@
+{
+  "data": {
+    "monitors": [{
+      "locationStop": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            16.3814377,
+            48.1876925
+          ]
+        },
+        "properties": {
+          "name": "60201346",
+          "title": "Quartier Belvedere S",
+          "municipality": "Wien",
+          "municipalityId": 90001,
+          "type": "stop",
+          "coordName": "WGS84",
+          "attributes": {
+            "rbl": 111
+          }
+        }
+      },
+      "lines": [{
+        "name": "D",
+        "towards": "Nußdorf",
+        "direction": "H",
+        "platform": "1",
+        "richtungsId": "1",
+        "barrierFree": true,
+        "realtimeSupported": true,
+        "trafficjam": false,
+        "departures": {
+          "departure": [{
+              "departureTime": {
+                "timePlanned": "2020-08-31T23:10:00.000+0200",
+                "timeReal": "2020-08-31T23:11:33.000+0200",
+                "countdown": 2
+              }
+            },
+            {
+              "departureTime": {
+                "timePlanned": "2020-08-31T23:25:00.000+0200",
+                "timeReal": "2020-08-31T23:25:00.000+0200",
+                "countdown": 15
+              }
+            },
+            {
+              "departureTime": {
+                "timePlanned": "2020-08-31T23:40:00.000+0200",
+                "timeReal": "2020-08-31T23:40:00.000+0200",
+                "countdown": 30
+              }
+            },
+            {
+              "departureTime": {
+                "timePlanned": "2020-08-31T23:55:00.000+0200",
+                "timeReal": "2020-08-31T23:55:00.000+0200",
+                "countdown": 45
+              }
+            },
+            {
+              "departureTime": {
+                "timePlanned": "2020-09-01T00:10:00.000+0200",
+                "timeReal": "2020-09-01T00:10:00.000+0200",
+                "countdown": 60
+              },
+              "vehicle": {
+                "name": "D",
+                "towards": "Marsanogasse, Betriebsbhf. Gürtel",
+                "direction": "H",
+                "richtungsId": "1",
+                "barrierFree": true,
+                "realtimeSupported": true,
+                "trafficjam": false,
+                "type": "ptTram",
+                "attributes": {},
+                "linienId": 136
+              }
+            }
+          ]
+        },
+        "type": "ptTram",
+        "lineId": 136
+      }],
+      "attributes": {}
+    }]
+  },
+  "message": {
+    "value": "OK",
+    "messageCode": 1,
+    "serverTime": "2020-08-31T23:09:27.000+0200"
+  }
+}

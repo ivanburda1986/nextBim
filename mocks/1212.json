@@ -1,0 +1,340 @@
+{
+  "data": {
+    "monitors": [{
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3620536,
+              48.2142219
+            ]
+          },
+          "properties": {
+            "name": "60201184",
+            "title": "Schottentor U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "attributes": {
+              "rbl": 1212
+            }
+          }
+        },
+        "lines": [{
+          "name": "37",
+          "towards": "Hohe Warte",
+          "direction": "H",
+          "platform": "1",
+          "richtungsId": "1",
+          "barrierFree": true,
+          "realtimeSupported": true,
+          "trafficjam": false,
+          "departures": {
+            "departure": [{
+                "departureTime": {
+                  "timePlanned": "2020-08-31T23:15:00.000+0200",
+                  "timeReal": "2020-08-31T23:15:00.000+0200",
+                  "countdown": 1
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-08-31T23:30:00.000+0200",
+                  "timeReal": "2020-08-31T23:30:05.000+0200",
+                  "countdown": 17
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-08-31T23:45:00.000+0200",
+                  "timeReal": "2020-08-31T23:45:00.000+0200",
+                  "countdown": 31
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T00:12:00.000+0200",
+                  "timeReal": "2020-09-01T00:12:00.000+0200",
+                  "countdown": 58
+                }
+              }
+            ]
+          },
+          "type": "ptTram",
+          "lineId": 137
+        }],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3620536,
+              48.2142219
+            ]
+          },
+          "properties": {
+            "name": "60201184",
+            "title": "Schottentor U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "attributes": {
+              "rbl": 1212
+            }
+          }
+        },
+        "lines": [{
+          "name": "38",
+          "towards": "Grinzing",
+          "direction": "H",
+          "platform": "1",
+          "richtungsId": "1",
+          "barrierFree": true,
+          "realtimeSupported": true,
+          "trafficjam": false,
+          "departures": {
+            "departure": [{
+                "departureTime": {
+                  "timePlanned": "2020-08-31T23:22:30.000+0200",
+                  "timeReal": "2020-08-31T23:22:30.000+0200",
+                  "countdown": 9
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-08-31T23:37:30.000+0200",
+                  "timeReal": "2020-08-31T23:37:30.000+0200",
+                  "countdown": 24
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-08-31T23:52:30.000+0200",
+                  "timeReal": "2020-08-31T23:52:30.000+0200",
+                  "countdown": 39
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T00:12:00.000+0200",
+                  "timeReal": "2020-09-01T00:12:00.000+0200",
+                  "countdown": 58
+                }
+              }
+            ]
+          },
+          "type": "ptTram",
+          "lineId": 138
+        }],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3620536,
+              48.2142219
+            ]
+          },
+          "properties": {
+            "name": "60201184",
+            "title": "Schottentor U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "attributes": {
+              "rbl": 1212
+            }
+          }
+        },
+        "lines": [{
+          "name": "40",
+          "towards": "Gersthof, Herbeckstraße",
+          "direction": "H",
+          "platform": "1",
+          "richtungsId": "1",
+          "barrierFree": true,
+          "realtimeSupported": true,
+          "trafficjam": false,
+          "departures": {
+            "departure": [{
+                "departureTime": {
+                  "timePlanned": "2020-08-31T23:22:00.000+0200",
+                  "timeReal": "2020-08-31T23:23:44.000+0200",
+                  "countdown": 10
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-08-31T23:37:00.000+0200",
+                  "timeReal": "2020-08-31T23:37:00.000+0200",
+                  "countdown": 23
+                }
+              }
+            ]
+          },
+          "type": "ptTram",
+          "lineId": 140
+        }],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3620536,
+              48.2142219
+            ]
+          },
+          "properties": {
+            "name": "60201184",
+            "title": "Schottentor U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "attributes": {
+              "rbl": 1212
+            }
+          }
+        },
+        "lines": [{
+          "name": "41",
+          "towards": "Pötzleinsdorf",
+          "direction": "H",
+          "platform": "1",
+          "richtungsId": "1",
+          "barrierFree": true,
+          "realtimeSupported": true,
+          "trafficjam": false,
+          "departures": {
+            "departure": [{
+                "departureTime": {
+                  "timePlanned": "2020-08-31T23:15:00.000+0200",
+                  "timeReal": "2020-08-31T23:15:00.000+0200",
+                  "countdown": 1
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-08-31T23:30:00.000+0200",
+                  "timeReal": "2020-08-31T23:30:24.000+0200",
+                  "countdown": 17
+                },
+                "vehicle": {
+                  "name": "41",
+                  "towards": "Pötzleinsdorf",
+                  "direction": "H",
+                  "richtungsId": "1",
+                  "barrierFree": false,
+                  "realtimeSupported": true,
+                  "trafficjam": false,
+                  "type": "ptTram",
+                  "attributes": {},
+                  "linienId": 141
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-08-31T23:45:00.000+0200",
+                  "timeReal": "2020-08-31T23:45:00.000+0200",
+                  "countdown": 31
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T00:00:00.000+0200",
+                  "timeReal": "2020-09-01T00:00:00.000+0200",
+                  "countdown": 46
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T00:12:00.000+0200",
+                  "timeReal": "2020-09-01T00:12:00.000+0200",
+                  "countdown": 58
+                },
+                "vehicle": {
+                  "name": "41",
+                  "towards": "Pötzleinsdorf",
+                  "direction": "H",
+                  "richtungsId": "1",
+                  "barrierFree": false,
+                  "realtimeSupported": true,
+                  "trafficjam": false,
+                  "type": "ptTram",
+                  "attributes": {},
+                  "linienId": 141
+                }
+              }
+            ]
+          },
+          "type": "ptTram",
+          "lineId": 141
+        }],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3620536,
+              48.2142219
+            ]
+          },
+          "properties": {
+            "name": "60201184",
+            "title": "Schottentor U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "attributes": {
+              "rbl": 1212
+            }
+          }
+        },
+        "lines": [{
+          "name": "42",
+          "towards": "Antonigasse",
+          "direction": "H",
+          "platform": "1",
+          "richtungsId": "1",
+          "barrierFree": true,
+          "realtimeSupported": true,
+          "trafficjam": false,
+          "departures": {
+            "departure": [{
+              "departureTime": {
+                "timePlanned": "2020-08-31T23:26:00.000+0200",
+                "timeReal": "2020-08-31T23:26:00.000+0200",
+                "countdown": 12
+              }
+            }]
+          },
+          "type": "ptTram",
+          "lineId": 142
+        }],
+        "attributes": {}
+      }
+    ]
+  },
+  "message": {
+    "value": "OK",
+    "messageCode": 1,
+    "serverTime": "2020-08-31T23:13:02.000+0200"
+  }
+}

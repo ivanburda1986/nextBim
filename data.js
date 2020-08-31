@@ -55,6 +55,8 @@ const DataCtrl = (function () {
 //Home --> Campus
 //46: Schottentor>Absberggasse
 //145: Aumannplatz>Schottentor
+//111: Nußdorf
+//1212: Schottentor>Gersthog, Antonigasse, Grinzing
 
 //https://api.allorigins.win/get?url=http://www.wienerlinien.at/ogd_realtime/monitor?stopId=147
 //mocks/${stopNumber}.json
