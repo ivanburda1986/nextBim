@@ -1,212 +1,258 @@
 {
   "data": {
     "monitors": [{
-      "locationStop": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [16.3363836, 48.2283861]
-        },
-        "properties": {
-          "name": "60200101",
-          "title": "Aumannplatz",
-          "municipality": "Wien",
-          "municipalityId": 90001,
-          "type": "stop",
-          "coordName": "WGS84",
-          "attributes": {
-            "rbl": 145
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3363836,
+              48.2283861
+            ]
+          },
+          "properties": {
+            "name": "60200101",
+            "title": "Aumannplatz",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "attributes": {
+              "rbl": 145
+            }
           }
-        }
+        },
+        "lines": [{
+          "name": "40",
+          "towards": "Schottentor U",
+          "direction": "R",
+          "platform": "2",
+          "richtungsId": "2",
+          "barrierFree": true,
+          "realtimeSupported": true,
+          "trafficjam": false,
+          "departures": {
+            "departure": [{
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:11:30.000+0200",
+                  "timeReal": "2020-09-01T19:10:27.000+0200",
+                  "countdown": 1
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:21:30.000+0200",
+                  "timeReal": "2020-09-01T19:21:30.000+0200",
+                  "countdown": 12
+                },
+                "vehicle": {
+                  "name": "40",
+                  "towards": "Schottentor U",
+                  "direction": "R",
+                  "richtungsId": "2",
+                  "barrierFree": false,
+                  "realtimeSupported": true,
+                  "trafficjam": false,
+                  "type": "ptTram",
+                  "attributes": {},
+                  "linienId": 140
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:31:30.000+0200",
+                  "timeReal": "2020-09-01T19:31:30.000+0200",
+                  "countdown": 22
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:41:30.000+0200",
+                  "timeReal": "2020-09-01T19:41:30.000+0200",
+                  "countdown": 32
+                },
+                "vehicle": {
+                  "name": "40",
+                  "towards": "Schottentor U",
+                  "direction": "R",
+                  "richtungsId": "2",
+                  "barrierFree": false,
+                  "realtimeSupported": true,
+                  "trafficjam": false,
+                  "type": "ptTram",
+                  "attributes": {},
+                  "linienId": 140
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:51:30.000+0200",
+                  "timeReal": "2020-09-01T19:51:30.000+0200",
+                  "countdown": 42
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T20:01:30.000+0200",
+                  "timeReal": "2020-09-01T20:01:30.000+0200",
+                  "countdown": 52
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T20:11:30.000+0200",
+                  "timeReal": "2020-09-01T20:11:30.000+0200",
+                  "countdown": 62
+                },
+                "vehicle": {
+                  "name": "40",
+                  "towards": "Schottentor U",
+                  "direction": "R",
+                  "richtungsId": "2",
+                  "barrierFree": false,
+                  "realtimeSupported": true,
+                  "trafficjam": false,
+                  "type": "ptTram",
+                  "attributes": {},
+                  "linienId": 140
+                }
+              }
+            ]
+          },
+          "type": "ptTram",
+          "lineId": 140
+        }],
+        "attributes": {}
       },
-      "lines": [{
-        "name": "40",
-        "towards": "Schottentor U",
-        "direction": "R",
-        "platform": "2",
-        "richtungsId": "2",
-        "barrierFree": true,
-        "realtimeSupported": true,
-        "trafficjam": false,
-        "departures": {
-          "departure": [{
-            "departureTime": {
-              "timePlanned": "2020-08-26T20:21:30.000+0200",
-              "timeReal": "2020-08-26T20:21:30.000+0200",
-              "countdown": 6
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3363836,
+              48.2283861
+            ]
+          },
+          "properties": {
+            "name": "60200101",
+            "title": "Aumannplatz",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "attributes": {
+              "rbl": 145
             }
-          }, {
-            "departureTime": {
-              "timePlanned": "2020-08-26T20:31:30.000+0200",
-              "timeReal": "2020-08-26T20:31:30.000+0200",
-              "countdown": 16
-            },
-            "vehicle": {
-              "name": "40",
-              "towards": "Schottentor U",
-              "direction": "R",
-              "richtungsId": "2",
-              "barrierFree": false,
-              "realtimeSupported": true,
-              "trafficjam": false,
-              "type": "ptTram",
-              "attributes": {},
-              "linienId": 140
-            }
-          }, {
-            "departureTime": {
-              "timePlanned": "2020-08-26T20:41:30.000+0200",
-              "timeReal": "2020-08-26T20:41:30.000+0200",
-              "countdown": 26
-            }
-          }, {
-            "departureTime": {
-              "timePlanned": "2020-08-26T20:51:30.000+0200",
-              "timeReal": "2020-08-26T20:51:30.000+0200",
-              "countdown": 36
-            }
-          }, {
-            "departureTime": {
-              "timePlanned": "2020-08-26T21:01:30.000+0200",
-              "timeReal": "2020-08-26T21:01:30.000+0200",
-              "countdown": 46
-            },
-            "vehicle": {
-              "name": "40",
-              "towards": "Schottentor U",
-              "direction": "R",
-              "richtungsId": "2",
-              "barrierFree": false,
-              "realtimeSupported": true,
-              "trafficjam": false,
-              "type": "ptTram",
-              "attributes": {},
-              "linienId": 140
-            }
-          }, {
-            "departureTime": {
-              "timePlanned": "2020-08-26T21:11:30.000+0200",
-              "timeReal": "2020-08-26T21:11:30.000+0200",
-              "countdown": 56
-            }
-          }, {
-            "departureTime": {
-              "timePlanned": "2020-08-26T21:21:30.000+0200",
-              "timeReal": "2020-08-26T21:21:30.000+0200",
-              "countdown": 66
-            },
-            "vehicle": {
-              "name": "40",
-              "towards": "Schottentor U",
-              "direction": "R",
-              "richtungsId": "2",
-              "barrierFree": false,
-              "realtimeSupported": true,
-              "trafficjam": false,
-              "type": "ptTram",
-              "attributes": {},
-              "linienId": 140
-            }
-          }]
-        },
-        "type": "ptTram",
-        "lineId": 140
-      }],
-      "attributes": {}
-    }, {
-      "locationStop": {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [16.3363836, 48.2283861]
-        },
-        "properties": {
-          "name": "60200101",
-          "title": "Aumannplatz",
-          "municipality": "Wien",
-          "municipalityId": 90001,
-          "type": "stop",
-          "coordName": "WGS84",
-          "attributes": {
-            "rbl": 145
           }
-        }
-      },
-      "lines": [{
-        "name": "41",
-        "towards": "Schottentor U",
-        "direction": "R",
-        "platform": "2",
-        "richtungsId": "2",
-        "barrierFree": true,
-        "realtimeSupported": true,
-        "trafficjam": false,
-        "departures": {
-          "departure": [{
-            "departureTime": {
-              "timePlanned": "2020-08-26T20:16:30.000+0200",
-              "timeReal": "2020-08-26T20:17:09.000+0200",
-              "countdown": 1
-            }
-          }, {
-            "departureTime": {
-              "timePlanned": "2020-08-26T20:26:30.000+0200",
-              "timeReal": "2020-08-26T20:26:30.000+0200",
-              "countdown": 11
-            }
-          }, {
-            "departureTime": {
-              "timePlanned": "2020-08-26T20:36:30.000+0200",
-              "timeReal": "2020-08-26T20:36:30.000+0200",
-              "countdown": 21
-            }
-          }, {
-            "departureTime": {
-              "timePlanned": "2020-08-26T20:46:30.000+0200",
-              "timeReal": "2020-08-26T20:46:30.000+0200",
-              "countdown": 31
-            },
-            "vehicle": {
-              "name": "41",
-              "towards": "Schottentor U",
-              "direction": "R",
-              "richtungsId": "2",
-              "barrierFree": false,
-              "realtimeSupported": true,
-              "trafficjam": false,
-              "type": "ptTram",
-              "attributes": {},
-              "linienId": 141
-            }
-          }, {
-            "departureTime": {
-              "timePlanned": "2020-08-26T20:56:30.000+0200",
-              "timeReal": "2020-08-26T20:56:30.000+0200",
-              "countdown": 41
-            }
-          }, {
-            "departureTime": {
-              "timePlanned": "2020-08-26T21:06:30.000+0200",
-              "timeReal": "2020-08-26T21:06:30.000+0200",
-              "countdown": 51
-            }
-          }, {
-            "departureTime": {
-              "timePlanned": "2020-08-26T21:16:30.000+0200",
-              "timeReal": "2020-08-26T21:16:30.000+0200",
-              "countdown": 61
-            }
-          }]
         },
-        "type": "ptTram",
-        "lineId": 141
-      }],
-      "attributes": {}
-    }]
+        "lines": [{
+          "name": "41",
+          "towards": "Schottentor U",
+          "direction": "R",
+          "platform": "2",
+          "richtungsId": "2",
+          "barrierFree": true,
+          "realtimeSupported": true,
+          "trafficjam": false,
+          "departures": {
+            "departure": [{
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:16:30.000+0200",
+                  "timeReal": "2020-09-01T19:15:33.000+0200",
+                  "countdown": 6
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:26:30.000+0200",
+                  "timeReal": "2020-09-01T19:26:30.000+0200",
+                  "countdown": 17
+                },
+                "vehicle": {
+                  "name": "41",
+                  "towards": "Schottentor U",
+                  "direction": "R",
+                  "richtungsId": "2",
+                  "barrierFree": false,
+                  "realtimeSupported": true,
+                  "trafficjam": false,
+                  "type": "ptTram",
+                  "attributes": {},
+                  "linienId": 141
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:36:30.000+0200",
+                  "timeReal": "2020-09-01T19:36:30.000+0200",
+                  "countdown": 27
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:46:30.000+0200",
+                  "timeReal": "2020-09-01T19:46:30.000+0200",
+                  "countdown": 37
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:56:30.000+0200",
+                  "timeReal": "2020-09-01T19:56:30.000+0200",
+                  "countdown": 47
+                },
+                "vehicle": {
+                  "name": "41",
+                  "towards": "Schottentor U",
+                  "direction": "R",
+                  "richtungsId": "2",
+                  "barrierFree": false,
+                  "realtimeSupported": true,
+                  "trafficjam": false,
+                  "type": "ptTram",
+                  "attributes": {},
+                  "linienId": 141
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T20:06:30.000+0200",
+                  "timeReal": "2020-09-01T20:06:30.000+0200",
+                  "countdown": 57
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T20:16:30.000+0200",
+                  "timeReal": "2020-09-01T20:16:30.000+0200",
+                  "countdown": 67
+                },
+                "vehicle": {
+                  "name": "41",
+                  "towards": "Schottentor U",
+                  "direction": "R",
+                  "richtungsId": "2",
+                  "barrierFree": false,
+                  "realtimeSupported": true,
+                  "trafficjam": false,
+                  "type": "ptTram",
+                  "attributes": {},
+                  "linienId": 141
+                }
+              }
+            ]
+          },
+          "type": "ptTram",
+          "lineId": 141
+        }],
+        "attributes": {}
+      }
+    ]
   },
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2020-08-26T20:15:28.000+0200"
+    "serverTime": "2020-09-01T19:08:34.000+0200"
   }
 }

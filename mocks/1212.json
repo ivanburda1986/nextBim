@@ -34,30 +34,51 @@
           "departures": {
             "departure": [{
                 "departureTime": {
-                  "timePlanned": "2020-08-31T23:15:00.000+0200",
-                  "timeReal": "2020-08-31T23:15:00.000+0200",
-                  "countdown": 1
+                  "timePlanned": "2020-09-01T19:15:00.000+0200",
+                  "timeReal": "2020-09-01T19:17:20.000+0200",
+                  "countdown": 8
                 }
               },
               {
                 "departureTime": {
-                  "timePlanned": "2020-08-31T23:30:00.000+0200",
-                  "timeReal": "2020-08-31T23:30:05.000+0200",
-                  "countdown": 17
+                  "timePlanned": "2020-09-01T19:25:00.000+0200",
+                  "timeReal": "2020-09-01T19:25:14.000+0200",
+                  "countdown": 16
                 }
               },
               {
                 "departureTime": {
-                  "timePlanned": "2020-08-31T23:45:00.000+0200",
-                  "timeReal": "2020-08-31T23:45:00.000+0200",
-                  "countdown": 31
+                  "timePlanned": "2020-09-01T19:35:00.000+0200",
+                  "timeReal": "2020-09-01T19:35:00.000+0200",
+                  "countdown": 25
                 }
               },
               {
                 "departureTime": {
-                  "timePlanned": "2020-09-01T00:12:00.000+0200",
-                  "timeReal": "2020-09-01T00:12:00.000+0200",
-                  "countdown": 58
+                  "timePlanned": "2020-09-01T19:45:00.000+0200",
+                  "timeReal": "2020-09-01T19:45:00.000+0200",
+                  "countdown": 35
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:55:00.000+0200",
+                  "timeReal": "2020-09-01T19:55:00.000+0200",
+                  "countdown": 45
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T20:05:00.000+0200",
+                  "timeReal": "2020-09-01T20:05:00.000+0200",
+                  "countdown": 55
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T20:15:00.000+0200",
+                  "timeReal": "2020-09-01T20:15:00.000+0200",
+                  "countdown": 65
                 }
               }
             ]
@@ -101,30 +122,51 @@
           "departures": {
             "departure": [{
                 "departureTime": {
-                  "timePlanned": "2020-08-31T23:22:30.000+0200",
-                  "timeReal": "2020-08-31T23:22:30.000+0200",
-                  "countdown": 9
+                  "timePlanned": "2020-09-01T19:10:00.000+0200",
+                  "timeReal": "2020-09-01T19:10:00.000+0200",
+                  "countdown": 0
                 }
               },
               {
                 "departureTime": {
-                  "timePlanned": "2020-08-31T23:37:30.000+0200",
-                  "timeReal": "2020-08-31T23:37:30.000+0200",
-                  "countdown": 24
+                  "timePlanned": "2020-09-01T19:20:00.000+0200",
+                  "timeReal": "2020-09-01T19:20:49.000+0200",
+                  "countdown": 11
                 }
               },
               {
                 "departureTime": {
-                  "timePlanned": "2020-08-31T23:52:30.000+0200",
-                  "timeReal": "2020-08-31T23:52:30.000+0200",
-                  "countdown": 39
+                  "timePlanned": "2020-09-01T19:30:00.000+0200",
+                  "timeReal": "2020-09-01T19:30:00.000+0200",
+                  "countdown": 20
                 }
               },
               {
                 "departureTime": {
-                  "timePlanned": "2020-09-01T00:12:00.000+0200",
-                  "timeReal": "2020-09-01T00:12:00.000+0200",
-                  "countdown": 58
+                  "timePlanned": "2020-09-01T19:40:00.000+0200",
+                  "timeReal": "2020-09-01T19:40:00.000+0200",
+                  "countdown": 30
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:50:00.000+0200",
+                  "timeReal": "2020-09-01T19:50:00.000+0200",
+                  "countdown": 40
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T20:00:00.000+0200",
+                  "timeReal": "2020-09-01T20:00:00.000+0200",
+                  "countdown": 50
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T20:10:00.000+0200",
+                  "timeReal": "2020-09-01T20:10:00.000+0200",
+                  "countdown": 60
                 }
               }
             ]
@@ -168,16 +210,75 @@
           "departures": {
             "departure": [{
                 "departureTime": {
-                  "timePlanned": "2020-08-31T23:22:00.000+0200",
-                  "timeReal": "2020-08-31T23:23:44.000+0200",
-                  "countdown": 10
+                  "timePlanned": "2020-09-01T19:13:00.000+0200",
+                  "timeReal": "2020-09-01T19:13:00.000+0200",
+                  "countdown": 3
                 }
               },
               {
                 "departureTime": {
-                  "timePlanned": "2020-08-31T23:37:00.000+0200",
-                  "timeReal": "2020-08-31T23:37:00.000+0200",
+                  "timePlanned": "2020-09-01T19:23:00.000+0200",
+                  "timeReal": "2020-09-01T19:23:00.000+0200",
+                  "countdown": 13
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:33:00.000+0200",
+                  "timeReal": "2020-09-01T19:33:00.000+0200",
                   "countdown": 23
+                },
+                "vehicle": {
+                  "name": "40",
+                  "towards": "Gersthof, Herbeckstraße",
+                  "direction": "H",
+                  "richtungsId": "1",
+                  "barrierFree": false,
+                  "realtimeSupported": true,
+                  "trafficjam": false,
+                  "type": "ptTram",
+                  "attributes": {},
+                  "linienId": 140
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:43:00.000+0200",
+                  "timeReal": "2020-09-01T19:43:00.000+0200",
+                  "countdown": 33
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:53:00.000+0200",
+                  "timeReal": "2020-09-01T19:53:00.000+0200",
+                  "countdown": 43
+                },
+                "vehicle": {
+                  "name": "40",
+                  "towards": "Gersthof, Herbeckstraße",
+                  "direction": "H",
+                  "richtungsId": "1",
+                  "barrierFree": false,
+                  "realtimeSupported": true,
+                  "trafficjam": false,
+                  "type": "ptTram",
+                  "attributes": {},
+                  "linienId": 140
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T20:03:00.000+0200",
+                  "timeReal": "2020-09-01T20:03:00.000+0200",
+                  "countdown": 53
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T20:13:00.000+0200",
+                  "timeReal": "2020-09-01T20:13:00.000+0200",
+                  "countdown": 63
                 }
               }
             ]
@@ -215,29 +316,29 @@
           "direction": "H",
           "platform": "1",
           "richtungsId": "1",
-          "barrierFree": true,
+          "barrierFree": false,
           "realtimeSupported": true,
           "trafficjam": false,
           "departures": {
             "departure": [{
                 "departureTime": {
-                  "timePlanned": "2020-08-31T23:15:00.000+0200",
-                  "timeReal": "2020-08-31T23:15:00.000+0200",
-                  "countdown": 1
+                  "timePlanned": "2020-09-01T19:18:00.000+0200",
+                  "timeReal": "2020-09-01T19:18:00.000+0200",
+                  "countdown": 8
                 }
               },
               {
                 "departureTime": {
-                  "timePlanned": "2020-08-31T23:30:00.000+0200",
-                  "timeReal": "2020-08-31T23:30:24.000+0200",
-                  "countdown": 17
+                  "timePlanned": "2020-09-01T19:28:00.000+0200",
+                  "timeReal": "2020-09-01T19:28:00.000+0200",
+                  "countdown": 18
                 },
                 "vehicle": {
                   "name": "41",
                   "towards": "Pötzleinsdorf",
                   "direction": "H",
                   "richtungsId": "1",
-                  "barrierFree": false,
+                  "barrierFree": true,
                   "realtimeSupported": true,
                   "trafficjam": false,
                   "type": "ptTram",
@@ -247,30 +348,68 @@
               },
               {
                 "departureTime": {
-                  "timePlanned": "2020-08-31T23:45:00.000+0200",
-                  "timeReal": "2020-08-31T23:45:00.000+0200",
-                  "countdown": 31
+                  "timePlanned": "2020-09-01T19:38:00.000+0200",
+                  "timeReal": "2020-09-01T19:38:00.000+0200",
+                  "countdown": 28
                 }
               },
               {
                 "departureTime": {
-                  "timePlanned": "2020-09-01T00:00:00.000+0200",
-                  "timeReal": "2020-09-01T00:00:00.000+0200",
-                  "countdown": 46
-                }
-              },
-              {
-                "departureTime": {
-                  "timePlanned": "2020-09-01T00:12:00.000+0200",
-                  "timeReal": "2020-09-01T00:12:00.000+0200",
-                  "countdown": 58
+                  "timePlanned": "2020-09-01T19:48:00.000+0200",
+                  "timeReal": "2020-09-01T19:48:00.000+0200",
+                  "countdown": 38
                 },
                 "vehicle": {
                   "name": "41",
                   "towards": "Pötzleinsdorf",
                   "direction": "H",
                   "richtungsId": "1",
-                  "barrierFree": false,
+                  "barrierFree": true,
+                  "realtimeSupported": true,
+                  "trafficjam": false,
+                  "type": "ptTram",
+                  "attributes": {},
+                  "linienId": 141
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:58:00.000+0200",
+                  "timeReal": "2020-09-01T19:58:00.000+0200",
+                  "countdown": 48
+                },
+                "vehicle": {
+                  "name": "41",
+                  "towards": "Pötzleinsdorf",
+                  "direction": "H",
+                  "richtungsId": "1",
+                  "barrierFree": true,
+                  "realtimeSupported": true,
+                  "trafficjam": false,
+                  "type": "ptTram",
+                  "attributes": {},
+                  "linienId": 141
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T20:08:00.000+0200",
+                  "timeReal": "2020-09-01T20:08:00.000+0200",
+                  "countdown": 58
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T20:18:00.000+0200",
+                  "timeReal": "2020-09-01T20:18:00.000+0200",
+                  "countdown": 68
+                },
+                "vehicle": {
+                  "name": "41",
+                  "towards": "Pötzleinsdorf",
+                  "direction": "H",
+                  "richtungsId": "1",
+                  "barrierFree": true,
                   "realtimeSupported": true,
                   "trafficjam": false,
                   "type": "ptTram",
@@ -309,7 +448,7 @@
         },
         "lines": [{
           "name": "42",
-          "towards": "Antonigasse",
+          "towards": "Gersthof S",
           "direction": "H",
           "platform": "1",
           "richtungsId": "1",
@@ -318,12 +457,62 @@
           "trafficjam": false,
           "departures": {
             "departure": [{
-              "departureTime": {
-                "timePlanned": "2020-08-31T23:26:00.000+0200",
-                "timeReal": "2020-08-31T23:26:00.000+0200",
-                "countdown": 12
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:05:00.000+0200",
+                  "timeReal": "2020-09-01T19:10:25.000+0200",
+                  "countdown": 1
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:15:00.000+0200",
+                  "timeReal": "2020-09-01T19:15:00.000+0200",
+                  "countdown": 5
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:25:00.000+0200",
+                  "timeReal": "2020-09-01T19:26:23.000+0200",
+                  "countdown": 17
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:35:00.000+0200",
+                  "timeReal": "2020-09-01T19:40:36.000+0200",
+                  "countdown": 31
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:45:00.000+0200",
+                  "timeReal": "2020-09-01T19:47:25.000+0200",
+                  "countdown": 38
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T19:55:00.000+0200",
+                  "timeReal": "2020-09-01T19:55:00.000+0200",
+                  "countdown": 45
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T20:05:00.000+0200",
+                  "timeReal": "2020-09-01T20:05:00.000+0200",
+                  "countdown": 55
+                }
+              },
+              {
+                "departureTime": {
+                  "timePlanned": "2020-09-01T20:15:00.000+0200",
+                  "timeReal": "2020-09-01T20:17:06.000+0200",
+                  "countdown": 68
+                }
               }
-            }]
+            ]
           },
           "type": "ptTram",
           "lineId": 142
@@ -335,6 +524,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2020-08-31T23:13:02.000+0200"
+    "serverTime": "2020-09-01T19:09:04.000+0200"
   }
 }

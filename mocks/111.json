@@ -34,49 +34,101 @@
         "departures": {
           "departure": [{
               "departureTime": {
-                "timePlanned": "2020-08-31T23:10:00.000+0200",
-                "timeReal": "2020-08-31T23:11:33.000+0200",
-                "countdown": 2
+                "timePlanned": "2020-09-01T19:13:00.000+0200",
+                "timeReal": "2020-09-01T19:12:35.000+0200",
+                "countdown": 3
               }
             },
             {
               "departureTime": {
-                "timePlanned": "2020-08-31T23:25:00.000+0200",
-                "timeReal": "2020-08-31T23:25:00.000+0200",
-                "countdown": 15
+                "timePlanned": "2020-09-01T19:20:30.000+0200",
+                "timeReal": "2020-09-01T19:20:30.000+0200",
+                "countdown": 11
               }
             },
             {
               "departureTime": {
-                "timePlanned": "2020-08-31T23:40:00.000+0200",
-                "timeReal": "2020-08-31T23:40:00.000+0200",
-                "countdown": 30
-              }
-            },
-            {
-              "departureTime": {
-                "timePlanned": "2020-08-31T23:55:00.000+0200",
-                "timeReal": "2020-08-31T23:55:00.000+0200",
-                "countdown": 45
-              }
-            },
-            {
-              "departureTime": {
-                "timePlanned": "2020-09-01T00:10:00.000+0200",
-                "timeReal": "2020-09-01T00:10:00.000+0200",
-                "countdown": 60
+                "timePlanned": "2020-09-01T19:28:00.000+0200",
+                "timeReal": "2020-09-01T19:28:00.000+0200",
+                "countdown": 18
               },
               "vehicle": {
                 "name": "D",
-                "towards": "Marsanogasse, Betriebsbhf. Gürtel",
+                "towards": "Nußdorf",
                 "direction": "H",
                 "richtungsId": "1",
-                "barrierFree": true,
+                "barrierFree": false,
                 "realtimeSupported": true,
                 "trafficjam": false,
                 "type": "ptTram",
                 "attributes": {},
                 "linienId": 136
+              }
+            },
+            {
+              "departureTime": {
+                "timePlanned": "2020-09-01T19:35:30.000+0200",
+                "timeReal": "2020-09-01T19:35:30.000+0200",
+                "countdown": 26
+              },
+              "vehicle": {
+                "name": "D",
+                "towards": "Nußdorf",
+                "direction": "H",
+                "richtungsId": "1",
+                "barrierFree": false,
+                "realtimeSupported": true,
+                "trafficjam": false,
+                "type": "ptTram",
+                "attributes": {},
+                "linienId": 136
+              }
+            },
+            {
+              "departureTime": {
+                "timePlanned": "2020-09-01T19:43:00.000+0200",
+                "timeReal": "2020-09-01T19:43:00.000+0200",
+                "countdown": 33
+              }
+            },
+            {
+              "departureTime": {
+                "timePlanned": "2020-09-01T19:50:30.000+0200",
+                "timeReal": "2020-09-01T19:50:30.000+0200",
+                "countdown": 41
+              },
+              "vehicle": {
+                "name": "D",
+                "towards": "Nußdorf",
+                "direction": "H",
+                "richtungsId": "1",
+                "barrierFree": false,
+                "realtimeSupported": true,
+                "trafficjam": false,
+                "type": "ptTram",
+                "attributes": {},
+                "linienId": 136
+              }
+            },
+            {
+              "departureTime": {
+                "timePlanned": "2020-09-01T19:59:00.000+0200",
+                "timeReal": "2020-09-01T19:59:00.000+0200",
+                "countdown": 49
+              }
+            },
+            {
+              "departureTime": {
+                "timePlanned": "2020-09-01T20:09:00.000+0200",
+                "timeReal": "2020-09-01T20:09:00.000+0200",
+                "countdown": 59
+              }
+            },
+            {
+              "departureTime": {
+                "timePlanned": "2020-09-01T20:19:00.000+0200",
+                "timeReal": "2020-09-01T20:19:00.000+0200",
+                "countdown": 69
               }
             }
           ]
@@ -90,6 +142,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2020-08-31T23:09:27.000+0200"
+    "serverTime": "2020-09-01T19:09:19.000+0200"
   }
 }
