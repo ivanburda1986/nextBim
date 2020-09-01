@@ -1,5 +1,7 @@
 //UI CONTROLLER
 const UICtrl = (function () {
+  const AppData = DataCtrl.getAppData();
+
   const UISelectors = {
     aumannplatzSchottentor: document.querySelector("#aumannplatz-schottentor"),
     schottentorQuartierbelvedere: document.querySelector("#schottentor-quartierbelvedere"),
@@ -21,7 +23,7 @@ const UICtrl = (function () {
         countdownDisplay.setAttribute('countdownValue', countdown);
         countdownsContainer.appendChild(countdownDisplay);
       });
-      UICtrl.evaluateAumannplatzDepartures();
+
     },
     evaluateAumannplatzDepartures: function (aumannplatzCountdowns = DataCtrl.getAppData().aumannplatzCountdowns, schottentorToWorkCountdowns = DataCtrl.getAppData().schottentorToWorkCountdowns) {
       let green = [];
@@ -29,23 +31,19 @@ const UICtrl = (function () {
       let orange = [];
       let red = [];
       aumannplatzCountdowns.forEach((aumannplatzCountdown) => {
-        let possibleSchottentorToWorkCountdowns = schottentorToWorkCountdowns.filter((item) => item > aumannplatzCountdown + 13);
+        let possibleSchottentorToWorkCountdowns = schottentorToWorkCountdowns.filter((item) => item > aumannplatzCountdown + AppData.minutesAumannplatzToSchottentor);
         // console.log(possibleSchottentorToWorkCountdowns);
-        //console.log(`${aumannplatzCountdown}:${aumannplatzCountdown+13} - next suitable at Sch: ${possibleSchottentorToWorkCountdowns[0]}, diff: ${possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown+13)}`);
-        if (possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown + 13) <= 3) {
+        //console.log(`${aumannplatzCountdown}:${aumannplatzCountdown+AppData.minutesAumannplatzToSchottentor} - next suitable at Sch: ${possibleSchottentorToWorkCountdowns[0]}, diff: ${possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown+AppData.minutesAumannplatzToSchottentor)}`);
+        if (possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown + AppData.minutesAumannplatzToSchottentor) <= 3) {
           green.push(aumannplatzCountdown);
-        } else if (possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown + 13) <= 5) {
+        } else if (possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown + AppData.minutesAumannplatzToSchottentor) <= 5) {
           yellow.push(aumannplatzCountdown);
-        } else if (possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown + 13) <= 7) {
+        } else if (possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown + AppData.minutesAumannplatzToSchottentor) <= 7) {
           orange.push(aumannplatzCountdown);
-        } else if (possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown + 13) > 7) {
+        } else if (possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown + AppData.minutesAumannplatzToSchottentor) > 7) {
           red.push(aumannplatzCountdown);
         }
       });
-      // console.log("green:" + green);
-      // console.log("yellow:" + yellow);
-      // console.log("orange:" + orange);
-      // console.log("red:" + red);
       //Take all countdowns from Aumannplatz to Schottentor and assign them color class based on what color-array they are located in
       Array.from(UICtrl.getSelectors().aumannplatzSchottentor.getElementsByClassName('countdownDisplay')).forEach((countdown) => {
         if (green.includes(parseInt(countdown.getAttribute('countdownValue')))) {
@@ -62,31 +60,26 @@ const UICtrl = (function () {
         }
       })
     },
-    evaluateQuartierBelvedereDepartures: function (aumannplatzCountdowns = DataCtrl.getAppData().aumannplatzCountdowns, schottentorToWorkCountdowns = DataCtrl.getAppData().schottentorToWorkCountdowns) {
+    evaluateQuartierBelvedereDepartures: function (quartierbelvedereCountdowns = DataCtrl.getAppData().quartierbelvedereCountdowns, schottentorToAumannplatzCountdowns = DataCtrl.getAppData().schottentorToAumannplatzCountdowns, schottentorToVinzenzgasseCountdowns = DataCtrl.getAppData().schottentorToVinzenzgasseCountdowns) {
       let green = [];
       let yellow = [];
       let orange = [];
       let red = [];
-      aumannplatzCountdowns.forEach((aumannplatzCountdown) => {
-        let possibleSchottentorToWorkCountdowns = schottentorToWorkCountdowns.filter((item) => item > aumannplatzCountdown + 13);
-        // console.log(possibleSchottentorToWorkCountdowns);
-        //console.log(`${aumannplatzCountdown}:${aumannplatzCountdown+13} - next suitable at Sch: ${possibleSchottentorToWorkCountdowns[0]}, diff: ${possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown+13)}`);
-        if (possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown + 13) <= 3) {
-          green.push(aumannplatzCountdown);
-        } else if (possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown + 13) <= 5) {
-          yellow.push(aumannplatzCountdown);
-        } else if (possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown + 13) <= 7) {
-          orange.push(aumannplatzCountdown);
-        } else if (possibleSchottentorToWorkCountdowns[0] - (aumannplatzCountdown + 13) > 7) {
-          red.push(aumannplatzCountdown);
+      let schottentorToHomeCountdowns = [...new Set(schottentorToAumannplatzCountdowns.concat(schottentorToVinzenzgasseCountdowns))].sort((a, b) => a - b);
+      quartierbelvedereCountdowns.forEach((quartierbelvedereCountdown) => {
+        let possibleSchottentorHomeCountdowns = schottentorToHomeCountdowns.filter((item) => item > quartierbelvedereCountdown + AppData.minutesQuartierbelvedereToSchottentor);
+        if (possibleSchottentorHomeCountdowns[0] - (quartierbelvedereCountdown + AppData.minutesQuartierbelvedereToSchottentor) <= 3) {
+          green.push(quartierbelvedereCountdown);
+        } else if (possibleSchottentorHomeCountdowns[0] - (quartierbelvedereCountdown + AppData.minutesQuartierbelvedereToSchottentor) <= 5) {
+          yellow.push(quartierbelvedereCountdown);
+        } else if (possibleSchottentorHomeCountdowns[0] - (quartierbelvedereCountdown + AppData.minutesQuartierbelvedereToSchottentor) <= 7) {
+          orange.push(quartierbelvedereCountdown);
+        } else if (possibleSchottentorHomeCountdowns[0] - (quartierbelvedereCountdown + AppData.minutesQuartierbelvedereToSchottentor) > 7) {
+          red.push(quartierbelvedereCountdown);
         }
       });
-      // console.log("green:" + green);
-      // console.log("yellow:" + yellow);
-      // console.log("orange:" + orange);
-      // console.log("red:" + red);
-      //Take all countdowns from Aumannplatz to Schottentor and assign them color class based on what color-array they are located in
-      Array.from(UICtrl.getSelectors().aumannplatzSchottentor.getElementsByClassName('countdownDisplay')).forEach((countdown) => {
+      //Take all countdowns from Quartier Belvedete to Schottentor and assign them color class based on what color-array they are located in
+      Array.from(UICtrl.getSelectors().quartierbelvedereSchottentor.getElementsByClassName('countdownDisplay')).forEach((countdown) => {
         if (green.includes(parseInt(countdown.getAttribute('countdownValue')))) {
           countdown.classList.add('green');
         }

@@ -2,6 +2,7 @@
 const DataCtrl = (function () {
   const appData = {
     minutesAumannplatzToSchottentor: 13,
+    minutesQuartierbelvedereToSchottentor: 17,
     aumannplatzCountdowns: [],
     schottentorToWorkCountdowns: [],
     quartierbelvedereCountdowns: [],
@@ -15,7 +16,7 @@ const DataCtrl = (function () {
       return appData;
     },
     //Get info about a stop
-    getStopData: async function (stopNumber, countdownsContainer, relevantTrams) {
+    getStopData: async function (stopNumber) {
       //const response = await fetch(`https://api.allorigins.win/get?url=http://www.wienerlinien.at/ogd_realtime/monitor?stopId=${stopNumber}`, {
       const response = await fetch(`mocks/${stopNumber}.json`, {
         method: "GET",
@@ -25,8 +26,7 @@ const DataCtrl = (function () {
         },
       });
       const data = await response.json();
-      DataCtrl.abstractStopDepartureCountdowns((data), countdownsContainer, relevantTrams);
-      //DataCtrl.abstractStopDepartureCountdowns(JSON.parse(data.contents), countdownsContainer, relevantTrams);
+      return data;
     },
     //Get countdowns for relevant means of transport of the stop
     abstractStopDepartureCountdowns: function (placeData, countdownsContainer, relevantTrams) {
@@ -50,11 +50,16 @@ const DataCtrl = (function () {
           return item
         }
       });
-      //console.log(countdowns);
-      UICtrl.displayCountdowns(countdowns, countdownsContainer);
-      DataCtrl.storeCountdowns(countdowns, countdownsContainer);
+
+      DataCtrl.storeCountdowns(countdowns, countdownsContainer).then(
+        () => {
+          UICtrl.displayCountdowns(countdowns, countdownsContainer);
+          UICtrl.evaluateAumannplatzDepartures();
+          UICtrl.evaluateQuartierBelvedereDepartures();
+        }
+      );
     },
-    storeCountdowns: function (countdowns, countdownsContainer) {
+    storeCountdowns: async function (countdowns, countdownsContainer) {
       if (countdownsContainer.id === 'aumannplatz-schottentor') {
         DataCtrl.getAppData().aumannplatzCountdowns = countdowns;
       };
@@ -70,6 +75,7 @@ const DataCtrl = (function () {
       if (countdownsContainer.id === 'schottentor-vinzenzgasse') {
         DataCtrl.getAppData().schottentorToVinzenzgasseCountdowns = countdowns;
       };
+
     },
   }
 })();
