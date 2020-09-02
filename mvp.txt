@@ -35,7 +35,6 @@ https://till.mabe.at/rbl/?line=140&station=21311
 
 
 //WHAT STILL TO DO
--switch to real api data, do not use mocks anymore
 -deploy to nextbim.ivanburda.com
 
 

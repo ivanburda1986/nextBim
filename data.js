@@ -18,8 +18,8 @@ const DataCtrl = (function () {
     },
     //Get info about a stop
     getStopData: async function (stopNumber) {
-      //const response = await fetch(`https://api.allorigins.win/get?url=http://www.wienerlinien.at/ogd_realtime/monitor?stopId=${stopNumber}`, {
-      const response = await fetch(`mocks/${stopNumber}.json`, {
+      const response = await fetch(`https://api.allorigins.win/get?url=http://www.wienerlinien.at/ogd_realtime/monitor?stopId=${stopNumber}`, {
+        //const response = await fetch(`mocks/${stopNumber}.json`, {
         method: "GET",
         headers: {
           Accept: "application/json",
@@ -55,8 +55,10 @@ const DataCtrl = (function () {
       DataCtrl.storeCountdowns(countdowns, countdownsContainer).then(
         () => {
           UICtrl.displayCountdowns(countdowns, countdownsContainer);
-          UICtrl.evaluateAumannplatzDepartures();
-          UICtrl.evaluateQuartierBelvedereDepartures();
+          setTimeout(function () {
+            UICtrl.evaluateAumannplatzDepartures();
+            UICtrl.evaluateQuartierBelvedereDepartures();
+          }, 1000);
         }
       );
     },
