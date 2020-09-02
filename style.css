@@ -42,6 +42,7 @@ body {
   margin: 1rem;
   padding-top: 1rem;
   background: var(--medium-green);
+  cursor: pointer;
 }
 
 .toWork h1,

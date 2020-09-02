@@ -3,23 +3,16 @@ const App = (function (DataCtrl, UICtrl) {
   //EVENT LISTENERS
   const loadEventListeners = function () {
     UICtrl.getSelectors().toWorkRoutes.addEventListener('click', (e) => {
-      App.loadToWorkCountdowns();
+
     });
     UICtrl.getSelectors().backHomeRoutes.addEventListener('click', (e) => {
-      App.loadToHomeCountdowns();
+
     });
   };
 
 
   return {
     init: function () {
-      App.loadToWorkCountdowns();
-      App.loadToHomeCountdowns();
-      DataCtrl.swapToWorkToHomeBoxes();
-      loadEventListeners();
-
-    },
-    loadToWorkCountdowns: function () {
       DataCtrl.getStopData(145)
         .then((data) => {
           DataCtrl.abstractStopDepartureCountdowns((data), UICtrl.getSelectors().aumannplatzSchottentor, ["40", "41"]);
@@ -30,8 +23,6 @@ const App = (function (DataCtrl, UICtrl) {
           DataCtrl.abstractStopDepartureCountdowns((data), UICtrl.getSelectors().schottentorQuartierbelvedere, ["D"]);
           //DataCtrl.abstractStopDepartureCountdowns(JSON.parse(data.contents), UICtrl.getSelectors().schottentorQuartierbelvedere, ["D"]);
         });
-    },
-    loadToHomeCountdowns: function () {
       DataCtrl.getStopData(111)
         .then((data) => {
           DataCtrl.abstractStopDepartureCountdowns((data), UICtrl.getSelectors().quartierbelvedereSchottentor, ["D"]);
@@ -47,7 +38,14 @@ const App = (function (DataCtrl, UICtrl) {
           DataCtrl.abstractStopDepartureCountdowns((data), UICtrl.getSelectors().schottentorVinzenzgasse, ["42"]);
           //DataCtrl.abstractStopDepartureCountdowns(JSON.parse(data.contents), UICtrl.getSelectors().schottentorVinzenzgasse, ["42"]);
         });
-    }
+      DataCtrl.swapToWorkToHomeBoxes();
+      DataCtrl.setMinutesAumannplatzToSchottentor();
+      loadEventListeners();
+
+    },
+
+
+
   }
 })(DataCtrl, UICtrl);
 App.init();

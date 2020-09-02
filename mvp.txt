@@ -35,7 +35,10 @@ https://till.mabe.at/rbl/?line=140&station=21311
 
 
 //WHAT STILL TO DO
--switch the box order based on the datetime, in the afternoon the way from work to home should be at the top
--adapt the duration to schottentor based on the datetime - get the durations from wiener linien, at least approx
 -switch to real api data, do not use mocks anymore
 -deploy to nextbim.ivanburda.com
+
+
+
+
+

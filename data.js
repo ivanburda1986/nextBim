@@ -87,6 +87,17 @@ const DataCtrl = (function () {
       } else {
         UICtrl.getSelectors().appContainer.classList.add('reversed');
       }
+    },
+    setMinutesAumannplatzToSchottentor() {
+      const getTime = new Date();
+      const currentHour = getTime.getHours();
+      if (currentHour === 7 || currentHour === 8) {
+        appData.minutesAumannplatzToSchottentor = 13;
+        //console.log(appData.minutesAumannplatzToSchottentor);
+      } else {
+        appData.minutesAumannplatzToSchottentor = 12;
+        //console.log(appData.minutesAumannplatzToSchottentor);
+      }
     }
   }
 })();
