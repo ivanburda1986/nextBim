@@ -3,11 +3,14 @@ const UICtrl = (function () {
   const AppData = DataCtrl.getAppData();
 
   const UISelectors = {
+    appContainer: document.querySelector('#appContainer'),
     aumannplatzSchottentor: document.querySelector("#aumannplatz-schottentor"),
     schottentorQuartierbelvedere: document.querySelector("#schottentor-quartierbelvedere"),
     quartierbelvedereSchottentor: document.querySelector("#quartierbelvedere-schottentor"),
     schottentorAumanPlatz: document.querySelector("#schottentor-aumannplatz"),
     schottentorVinzenzgasse: document.querySelector("#schottentor-vinzenzgasse"),
+    toWorkRoutes: document.querySelector('.toWork'),
+    backHomeRoutes: document.querySelector('.backHome'),
   }
 
   return {

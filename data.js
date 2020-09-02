@@ -8,7 +8,8 @@ const DataCtrl = (function () {
     quartierbelvedereCountdowns: [],
     schottentorToAumannplatzCountdowns: [],
     schottentorToVinzenzgasseCountdowns: [],
-  }
+  };
+
 
   return {
     //Returns app data
@@ -77,6 +78,16 @@ const DataCtrl = (function () {
       };
 
     },
+    swapToWorkToHomeBoxes: function () {
+      const getTime = new Date();
+      const currentHour = getTime.getHours();;
+      UICtrl.getSelectors().appContainer.classList.add('reversed');
+      if (currentHour >= 4 && currentHour <= 15) {
+        UICtrl.getSelectors().appContainer.classList.remove('reversed');
+      } else {
+        UICtrl.getSelectors().appContainer.classList.add('reversed');
+      }
+    }
   }
 })();
 

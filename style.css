@@ -1,3 +1,12 @@
+:root {
+  --dark-green: #06171d;
+  --medium-green: #113d3d;
+  --light-green: #015352;
+  --dark-orange: #fd7d00;
+  --medium-orange: #fd9d00;
+  --light-orange: #ffb337;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,27 +19,59 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+  background: var(--dark-green);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.reversed {
+  flex-direction: column-reverse;
 }
 
 .toWork,
 .backHome {
-  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   border-radius: 5px;
   margin: 1rem;
+  padding-top: 1rem;
+  background: var(--medium-green);
+}
+
+.toWork h1,
+.backHome h1 {
+  font-size: 1.5rem;
+  color: var(--light-orange)
 }
 
 .route-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
+
+
+
 }
 
-.route-container h1 {
+.route-container h2 {
+  font-size: 1rem;
   padding-bottom: 0.5rem;
+  color: mediumseagreen;
 }
 
 .countdowns-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
 }
 
 .countdownDisplay {
@@ -40,8 +81,10 @@ body {
   padding: 1rem;
   background: #f4f4f4;
   width: 3rem;
-  box-shadow: 2.5px 5px 5px #888888;
+  box-shadow: 2.5px 5px 5px seagreen;
   margin: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .green {

@@ -35,9 +35,7 @@ https://till.mabe.at/rbl/?line=140&station=21311
 
 
 //WHAT STILL TO DO
--manual refresh only when clicking the specific direction area (box)
 -switch the box order based on the datetime, in the afternoon the way from work to home should be at the top
 -adapt the duration to schottentor based on the datetime - get the durations from wiener linien, at least approx
--at the bottom of every time there could be a small waiting time in minutes
 -switch to real api data, do not use mocks anymore
 -deploy to nextbim.ivanburda.com
