@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Next Bim</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Next Bim</title>
-  <!--Favicon-->
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-</head>
-
-<body>
-  <div class="container" id="appContainer">
-    <div class="toWork">
-      <h1>Going to work</h1>
-      <div class="route-container">
-        <h2>Aumannplatz → Schottentor</h2>
-        <div class="countdowns-container" id="aumannplatz-schottentor">
-
+  <body>
+    <div class="container" id="appContainer">
+      <div class="toWork">
+        <h1>Going to work</h1>
+        <div class="route-container">
+          <h2>Aumannplatz → Schottentor</h2>
+          <div class="countdowns-container" id="aumannplatz-schottentor"></div>
+        </div>
+        <div class="route-container">
+          <h2>Schottentor → Quart. Belvedere</h2>
+          <div class="countdowns-container" id="schottentor-quartierbelvedere"></div>
         </div>
       </div>
-      <div class="route-container">
-        <h2>Schottentor → Quart. Belvedere</h2>
-        <div class="countdowns-container" id="schottentor-quartierbelvedere">
-
+      <div id="legend">
+        <p>Waiting time for a connection (minutes)</p>
+        <div id="legend-bars">
+          <div class="bar green"><p>1-3</p></div>
+          <div class="bar yellow"><p>4-5</p></div>
+          <div class="bar orange"><p>6-7</p></div>
+          <div class="bar red"><p>8+</p></div>
+          <div class="bar grey"><p>Don't know</p></div>
+        </div>
+      </div>
+      <div class="backHome">
+        <h1>Going back home</h1>
+        <div class="route-container">
+          <h2>Quart. Belvedere → Schottentor</h2>
+          <div class="countdowns-container" id="quartierbelvedere-schottentor"></div>
+        </div>
+        <div class="route-container">
+          <h2>Schottentor → Aumannplatz</h2>
+          <div class="countdowns-container" id="schottentor-aumannplatz"></div>
+        </div>
+        <div class="route-container">
+          <h2>Schottentor → Vinzenzgasse</h2>
+          <div class="countdowns-container" id="schottentor-vinzenzgasse"></div>
         </div>
       </div>
     </div>
-    <div class="backHome">
-      <h1>Going back home</h1>
-      <div class="route-container">
-        <h2>Quart. Belvedere → Schottentor</h2>
-        <div class="countdowns-container" id="quartierbelvedere-schottentor"></div>
-      </div>
-      <div class="route-container">
-        <h2>Schottentor → Aumannplatz</h2>
-        <div class="countdowns-container" id="schottentor-aumannplatz"></div>
-      </div>
-      <div class="route-container">
-        <h2>Schottentor → Vinzenzgasse</h2>
-        <div class="countdowns-container" id="schottentor-vinzenzgasse"></div>
-      </div>
-    </div>
-  </div>
-  <script src="data.js"></script>
-  <script src="ui.js"></script>
-  <script src="app.js"></script>
-</body>
-
+    <script src="data.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
